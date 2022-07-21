@@ -10,11 +10,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Cloud Play Ground</h1>
-
-        <h2>components 1 - Flash Card</h2>
-        <FlashCard data={data} />
-
       </header>
+      <div className="container">
+        <h2>components 1 - Flash Card</h2>
+        <FlashCard cards={data} />
+
+        <h2>components 2 - TBD</h2>
+      </div>
     </div>
   );
 }

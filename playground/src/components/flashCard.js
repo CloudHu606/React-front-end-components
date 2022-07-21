@@ -2,13 +2,12 @@ import { useState } from "react";
 
 const FlashCard = (data) => {
 
-    const {cards} = data.data;
+    const {cards} = data.cards;
 
     const [card, setCard] = useState(0);
     const [side, setSide] = useState("a");
 
     const flipCard = (side) => {
-        console.log(side);
         if(side === "a"){
             setSide(side = "b");
         } else{
