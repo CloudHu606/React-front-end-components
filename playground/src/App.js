@@ -1,22 +1,24 @@
-import './App.css';
-import FlashCard from '../src/components/flashCard';
-import cardsData from '../src/data/cards.json';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "../src/components/layout/navBar";
+import Home from "../src/components/pages/home";
+import SingleC from "../src/components/pages/singleC";
+import Projects from "../src/components/pages/projects";
 
 function App() {
-
-  const data = cardsData;
-
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Cloud Play Ground</h1>
-      </header>
+      <header className="App-header"></header>
+      <Navbar />
       <div className="container">
-        <h2>components 1 - Flash Card</h2>
-        <FlashCard cards={data} />
-
-        <h2>components 2 - TBD</h2>
+        <h1>Cloud Play Ground</h1>
       </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/singlec" element={<SingleC />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }
