@@ -1,0 +1,41 @@
+.seat {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 50px;
+  /* border-radius: 50%; */
+  width: 50px;
+}
+
+.seat:hover {
+  background-color: aqua;
+}
+
+.selected {
+  background-color: sandybrown;
+}
+
+.not-selected {
+  background-color: white;
+}
+
+.row {
+  margin: 2% 0;
+  flex-basis: 33.333333%;
+}
+
+.stage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btns {
+  margin-top: 3%;
+}
+
+.btns button {
+  margin: 0 2%;
+}
+
+.st {
+  font-size: 1.5vw;
+}

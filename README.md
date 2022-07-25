@@ -1,13 +1,18 @@
 # React-front-end-components
-React components practice  
 
-*components 
+React components practice
 
-1. Flash card 
-// left and right arrow 
-// flip card 
+\*Components
+
+1. Flash card
+   // left and right arrow
+   // flip card
 
 Ex:
-<- ( CARD ) -> 
+<- ( CARD ) ->
 
 2. TBD
+
+\*Small Projects
+
+1. Cinemark

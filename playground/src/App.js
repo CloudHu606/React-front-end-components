@@ -6,6 +6,8 @@ import Home from "../src/components/pages/home";
 import SingleC from "../src/components/pages/singleC";
 import Projects from "../src/components/pages/projects";
 
+import Cinemark from "../src/components/projects/cinemark/cinemark";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/singlec" element={<SingleC />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/cinemark" element={<Cinemark />} />
       </Routes>
     </div>
   );
