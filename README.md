@@ -15,4 +15,7 @@ Ex:
 
 \*Small Projects
 
-1. Cinemark
+1. Movie Seating
+   ( seats data )
+   - Json data
+   - 2d array
